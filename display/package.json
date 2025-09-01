@@ -1,0 +1,24 @@
+{
+  "name": "deepseek-mcp-server",
+  "version": "1.0.0",
+  "description": "DeepSeek MCP Server with full functionality",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-stdio": "node server.js stdio",
+    "start-websocket": "node server.js websocket",
+    "start-http": "node server.js http",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.1",
+    "path": "^0.12.7",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

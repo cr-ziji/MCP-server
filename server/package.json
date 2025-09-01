@@ -1,0 +1,19 @@
+{
+  "name": "deepseek-mcp-client",
+  "version": "1.0.0",
+  "description": "Electron client for DeepSeek MCP",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "electron": "^25.9.8",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  }
+}
